@@ -13,7 +13,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <body>
+    </head>
       <body>
      <header>
       <div class="container">
@@ -253,69 +253,70 @@
     </div>
     </section>
     </main>
-    <footer class="footer">
-      <div class="container section-footer">
+     <footer class="footer">
+      <div class="footer__wrapper container">
         <div>
-         <a href="index.html" class="footer-main-header">
-          <span class="Webstudio-footer-blue hover">Web</span
-          ><span class="Webstudio-footer-white hover">Studio</span></a
-        >
-        <ul class="footer-list">
-          <li class="footer-address-list">
-            <p class="address">m. Warszawa, Aleje Jerozolimskie 21</p></li>
+         <a href="index.html" class="page-name page-name__title">
+          <span class="page-name__title--blue hover">Web</span >
+          <span class="page-name__title--white hover">Studio</span>
+          </a>
+        <ul class="footer__address">
           <li>
-            <a href="mailto:info@devstudio.com" class="mail-footer hover"
+            <p class="footer__address--location">m. Warszawa, Aleje Jerozolimskie 21</p>
+          </li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="footer__address--contact hover"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="tel:+48111111111" class="phone-footer hover"
-              >+48 111 111 111</a
-            >
+            <a href="tel:+48111111111" class="footer__address--contact hover"
+              >+48 111 111 111
+              </a>
           </li>
         </ul>
-        </li>
       </div>
         <div class="social-links">
-          <h4 class="social-links-header">DOŁĄCZ DO NAS</h4>
-          <ul class="social-links-list">
-            <li class="social-links-icon-list">
-              <svg class="social-links-icons">
+          <h4 class="social-links__header">DOŁĄCZ DO NAS</h4>
+          <ul class="social-links__icon-list">
+            <li class="social-links__icons">
+              <svg class="social-links__icons--features">
                 <use xlink href="./images/icons.svg#icon-instagram-2"></use>
               </svg>
             </li>
-            <li class="social-links-icon-list">
-              <svg class="social-links-icons">
+            <li class="social-links__icons">
+              <svg class="social-links__icons--features">
                 <use xlink href="./images/icons.svg#icon-twitter-2"></use>
               </svg>
             </li>
-            <li class="social-links-icon-list">
-              <svg class="social-links-icons">
+            <li class="social-links__icons">
+              <svg class="social-links__icons--features">
                 <use xlink href="./images/icons.svg#icon-facebook-2"></use>
               </svg>
             </li>
-            <li class="social-links-icon-list">
-              <svg class="social-links-icons">
+            <li class="social-links__icons">
+              <svg class="social-links__icons--features">
                 <use xlink href="./images/icons.svg#icon-linkedin-2"></use>
               </svg>
             </li>
           </ul>
         </div>
-          <form class="subscription">
-            <label class="subscription-header">ZAPISZ SIĘ DO NEWSLETTERA
-              </label>
-              <div class="subscription-form">
-              <input class="subscription-input" type="email" name="newsletter-email" placeholder="E-mail" />
+          <form class="newsletter">
+            <label class="newsletter__header">ZAPISZ SIĘ DO NEWSLETTERA</label>
+              <div class="newsletter__form">
+              <input class="newsletter__input" type="email" name="newsletter-email" placeholder="E-mail" />
               <div class="button-place">
-                <button type="submit" class="subscription-button">
-                  <span class="subscription-button-text">Zapisz się
+                <button type="submit" class="newsletter__button">
+                  <span class="newsletter__button--text">Zapisz się
                   <svg class="subscription-icon">
                     <use xlink href="./images/icons.svg#send-icon"></use>
-                  </svg></span>
+                  </svg>
+                </span>
                 </button>
               </div>
               </div>
             </form>
+       </div>
     </footer>
     <script src="./js/modal.js"></script>
   </body>
