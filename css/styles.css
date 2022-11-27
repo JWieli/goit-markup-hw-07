@@ -413,7 +413,6 @@ h3 {
   display: flex;
 }
 
-
 .footer__address {
   display: flex;
   flex-direction: column;
@@ -423,13 +422,13 @@ h3 {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
-  margin:0;
+  margin: 0;
 }
 
 .footer__address--location {
   color: var(--main-white);
   padding-top: 20px;
-  margin:0;
+  margin: 0;
 }
 
 .footer__address--contact {
@@ -852,8 +851,8 @@ h3 {
 }
 
 .modal-icons {
-  width: 12px;
-  height: 12px;
+  width: 18px;
+  height: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -936,5 +935,3 @@ h3 {
   opacity: 1;
   border: 1px solid var(--silver);
 }
-
-
