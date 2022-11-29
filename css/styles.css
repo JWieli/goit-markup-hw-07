@@ -398,7 +398,6 @@ a:link {
   height: 16px;
   position: absolute;
   background-color: var(--blue);
-  border-radius: 2px;
   cursor: pointer;
   opacity: 0;
 }
