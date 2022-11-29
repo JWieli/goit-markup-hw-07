@@ -70,18 +70,18 @@
   fill: var(--icons);
   width: 20px;
   height: 20px;
-}
 
-.our-team-section__icons:hover,
-.our-team-section__icons:focus {
-  background-color: var(--blue);
-  fill: var(--main-white);
-  cursor: pointer;
-  border-radius: 50%;
-}
+  &:hover,
+  &:focus {
+    background-color: var(--blue);
+    fill: var(--main-white);
+    cursor: pointer;
+    border-radius: 50%;
+  }
 
-.our-team-section__icons:hover svg,
-.our-team-section__icons:focus svg {
-  fill: var(--main-white);
-  cursor: pointer;
+  &:hover svg,
+  &:focus svg {
+    fill: var(--main-white);
+    cursor: pointer;
+  }
 }

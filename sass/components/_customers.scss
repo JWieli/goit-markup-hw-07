@@ -33,17 +33,17 @@
   width: 106px;
   height: 60px;
   fill: var(--silver);
-}
 
-.customers__list:hover svg,
-.customers__list:focus svg {
-  fill: var(--blue);
-  cursor: pointer;
-  border-color: var(--blue);
-}
+  &:hover svg,
+  &focus svg {
+    fill: var(--blue);
+    cursor: pointer;
+    border-color: var(--blue);
+  }
 
-.customers__list:hover,
-.customers__list:focus {
-  border-color: var(--blue);
-  cursor: pointer;
+  &:hover,
+  &:focus {
+    border-color: var(--blue);
+    cursor: pointer;
+  }
 }

@@ -31,6 +31,12 @@
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   margin-right: 10px;
+
+  &:hover,
+  &:focus {
+    background-color: var(--blue);
+    cursor: pointer;
+  }
 }
 
 .social-links__icons--features {
@@ -40,10 +46,4 @@
     rgba(255, 255, 255, 0.1),
     rgba(255, 255, 255, 0.1)
   );
-}
-
-.social-links__icons:hover,
-.social-links__icons:focus {
-  background-color: var(--blue);
-  cursor: pointer;
 }

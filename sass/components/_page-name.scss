@@ -15,33 +15,32 @@
 
 .page-name__title--blue {
   color: var(--blue);
-}
 
-.page-name__title--blue:hover,
-.page-name__title--blue:focus {
-  color: var(--blue);
-  cursor: pointer;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--blue);
+    cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .page-name__title--black {
   color: var(--black);
-}
 
-.page-name__title--black:hover,
-.page-name__title--black:focus {
-  color: var(--blue);
-  cursor: pointer;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--blue);
+    cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
-
 .page-name__title--white {
   color: var(--main-white);
-}
 
-.page-name__title--white:hover,
-.page-name__title--white:focus {
-  color: var(--blue);
-  cursor: pointer;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--blue);
+    cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }

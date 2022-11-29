@@ -30,21 +30,21 @@
   background-color: transparent;
   color: var(--main-white);
   outline: none;
-}
 
-.newsletter__input::placeholder {
-  color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  padding-left: 16px;
-}
+  & ::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    padding-left: 16px;
+  }
 
-.newsletter__input:hover {
-  border-color: var(--blue);
-  outline-style: none;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    border-color: var(--blue);
+    outline-style: none;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .newsletter__button {
