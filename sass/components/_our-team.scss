@@ -64,12 +64,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
-
-.our-team-section__icons-properties {
-  fill: var(--icons);
-  width: 20px;
-  height: 20px;
 
   &:hover,
   &:focus {
@@ -84,4 +78,10 @@
     fill: var(--main-white);
     cursor: pointer;
   }
+}
+
+.our-team-section__icons-properties {
+  fill: var(--icons);
+  width: 20px;
+  height: 20px;
 }

@@ -27,15 +27,9 @@
   width: 170px;
   height: 92px;
   border-radius: 4px;
-}
-
-.customers__list--icons {
-  width: 106px;
-  height: 60px;
-  fill: var(--silver);
 
   &:hover svg,
-  &focus svg {
+  &:focus svg {
     fill: var(--blue);
     cursor: pointer;
     border-color: var(--blue);
@@ -46,4 +40,10 @@
     border-color: var(--blue);
     cursor: pointer;
   }
+}
+
+.customers__list--icons {
+  width: 106px;
+  height: 60px;
+  fill: var(--silver);
 }
